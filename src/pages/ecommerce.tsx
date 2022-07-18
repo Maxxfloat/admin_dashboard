@@ -1,10 +1,11 @@
-import React from "react";
+import Image from "next/image";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPrimitiveDot } from "react-icons/go";
 import { IoIosMore } from "react-icons/io";
 import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from "../components";
+
 import {
   earningData,
   medicalproBranding,
@@ -16,14 +17,16 @@ import {
 } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
 import product9 from "../data/product9.jpg";
-import Image from "next/image";
 
 const DropDown = ({ currentMode }) => (
   <div className="px-2 py-1 rounded-md w-28 border-1 border-color">
     <DropDownListComponent
       id="time"
       fields={{ text: "Time", value: "Id" }}
-      style={{ border: "none", color: currentMode === "Dark" && "white" }}
+      style={{
+        border: "none",
+        color: currentMode === "Dark" ? "white" : "unset",
+      }}
       value="1"
       dataSource={dropdownData}
       popupHeight="220px"
@@ -123,15 +126,17 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-5">
-                <SparkLine
-                  currentColor={currentColor}
-                  id="line-sparkLine"
-                  type="Line"
-                  height="80px"
-                  width="250px"
-                  data={SparklineAreaData}
-                  color={currentColor}
-                />
+                {typeof window !== "undefined" && (
+                  <SparkLine
+                    currentColor={currentColor}
+                    id="line-sparkLine"
+                    type="Line"
+                    height="80px"
+                    width="250px"
+                    data={SparklineAreaData}
+                    color={currentColor}
+                  />
+                )}
               </div>
               <div className="mt-10">
                 <Button
@@ -143,11 +148,7 @@ const Ecommerce = () => {
               </div>
             </div>
             <div>
-              <Stacked
-                // currentMode={currentMode}
-                width="320px"
-                height="360px"
-              />
+              <Stacked width="320px" height="360px" />
             </div>
           </div>
         </div>
@@ -168,15 +169,17 @@ const Ecommerce = () => {
             </div>
 
             <div className="mt-4">
-              <SparkLine
-                currentColor={currentColor}
-                id="column-sparkLine"
-                height="100px"
-                type="Column"
-                data={SparklineAreaData}
-                width="320"
-                color="rgb(242, 252, 253)"
-              />
+              {typeof window !== "undefined" && (
+                <SparkLine
+                  currentColor={currentColor}
+                  id="column-sparkLine"
+                  height="100px"
+                  type="Column"
+                  data={SparklineAreaData}
+                  width="320"
+                  color="rgb(242, 252, 253)"
+                />
+              )}
             </div>
           </div>
 
@@ -346,6 +349,8 @@ const Ecommerce = () => {
                 <Image
                   key={index}
                   className="w-8 h-8 rounded-full"
+                  width={"32px"}
+                  height={"32px"}
                   src={item.image}
                   alt=""
                 />
@@ -376,7 +381,9 @@ const Ecommerce = () => {
             </button>
           </div>
           <div className="mt-10">
-            <Image className="md:w-96 h-50 " src={product9} alt="" />
+            <div className="relative md:w-96 h-50">
+              <Image layout="fill" src={product9} alt="" />
+            </div>
             <div className="mt-8">
               <p className="text-lg font-semibold">React 18 coming soon!</p>
               <p className="text-gray-400 ">By Johnathan Doe</p>
