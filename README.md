@@ -1,7 +1,13 @@
-# Build and Deploy a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and More
-![Shoppy](https://i.ibb.co/W6g39w3/image.png)
+# Admin Dashboard & Multi App
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
+## Project
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+**Admin dashboard with multi simple and complicated app**
+Made by **Nextjs**, **TailwindCSS**, **Typescript**, **syncfusion**
+All Data Hard-Coded
+
+## What I Did
+
+I forked this project from
+[adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard.git)
+and convert it to Nextjs and added types by Typescript
