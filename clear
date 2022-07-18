@@ -1,0 +1,193 @@
+[33mcommit 5419352e79ebf97a2cff42ac11f699a5431aea97[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Omid-Neshati <tchandnofame@gmail.com>
+Date:   Fri Jul 15 07:18:42 2022 +0330
+
+    convert to nextjs and add typescript
+
+[33mcommit a7a7e973d4b5096bcd0dd5e15e70beaa7a36cc2f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Tue Jun 7 23:02:03 2022 +0200
+
+    Update README.md
+
+[33mcommit 76c755a716e6e921a645c9dab5a387b4abd76f98[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Wed May 25 10:50:10 2022 +0200
+
+    Update README.md
+
+[33mcommit aa822660b4edb74e44a232b1d497849c45161775[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Fri May 20 11:31:49 2022 +0200
+
+    Update README.md
+
+[33mcommit 789aeda5859ff41883e58cfc25081bf2f654a458[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Fri May 20 11:31:42 2022 +0200
+
+    Update README.md
+
+[33mcommit 774495d1491c405091d6091064cb43e336ccaf31[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Fri May 20 11:30:58 2022 +0200
+
+    Update README.md
+
+[33mcommit 7438ebeefadf80e01c881fe453d1ff198579888a[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Sat May 7 11:28:30 2022 +0200
+
+    update images
+
+[33mcommit 1c8f1707b9bcca3fce1b73b70ef23b68cff4374e[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Mar 1 15:35:40 2022 +0530
+
+    refactor
+
+[33mcommit 43b2dda4c0348f9c6429b44b9a3d8cfd678a869e[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Mar 1 15:27:56 2022 +0530
+
+    refactor
+
+[33mcommit 58d71a9a09e17c36acc2b0a6b44009125d18f9ce[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Mar 1 15:07:58 2022 +0530
+
+    refactor
+
+[33mcommit ebc49b721249a20df7667309a02a9d6c30696d1b[m
+Merge: c36fb4a f92aa54
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Mar 1 15:06:13 2022 +0530
+
+    refactor
+
+[33mcommit c36fb4a2d653e0df9c9b9d06524d9b3d4c1cacb7[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Mar 1 14:57:33 2022 +0530
+
+    refactor
+
+[33mcommit f92aa5421aa3b184363b276e842d12ddb4c650b5[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Tue Mar 1 09:39:58 2022 +0100
+
+    ...
+
+[33mcommit 7ebe16d19a010dcd804c33ea89308d65994bfab5[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Mar 1 10:30:38 2022 +0530
+
+    refactor
+
+[33mcommit 19f32a7da59ccd022c1f8b4c40e02feca3de0dbf[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Mar 1 10:14:36 2022 +0530
+
+    refactor
+
+[33mcommit dac0c97daa2826515906d7b76f10c89e4f7d6b38[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Sun Feb 27 14:10:42 2022 +0530
+
+    refactor
+
+[33mcommit ee8df2e41547418d46ced3b970ba747a49bf31c7[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Sun Feb 27 14:08:18 2022 +0530
+
+    refactor
+
+[33mcommit 4e2a31d1464b69564cd570f0fcf72327876d6ccf[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Sun Feb 27 14:01:23 2022 +0530
+
+    refactor
+
+[33mcommit 616566ab2a272b9fa4514264516a8083f24588fb[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Sat Feb 26 10:20:40 2022 +0530
+
+    refactored tailwind file
+
+[33mcommit 0b4d10c02e867eab3fe4180e729d9a1419e994f7[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Fri Feb 25 14:36:39 2022 +0530
+
+    refactor
+
+[33mcommit 6d5fd702802196ca5e51bba56680b2bdbc9ff679[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Fri Feb 25 14:30:45 2022 +0530
+
+    refactor
+
+[33mcommit 1b1059168cdb9040639256f73d7932620317c035[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Fri Feb 25 14:25:32 2022 +0530
+
+    refactor
+
+[33mcommit b84c0e8742edf08fbc638a4a4dc1ce8d3f7478a7[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Fri Feb 25 14:03:32 2022 +0530
+
+    refactor
+
+[33mcommit 59702eb4e09e4b19cc8b5cb9bdf757b3d964d901[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Fri Feb 25 14:02:52 2022 +0530
+
+    refactor
+
+[33mcommit 96efe000095a2b4158863562e65aa45ece6507b9[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Thu Feb 24 19:50:48 2022 +0530
+
+    refactor
+
+[33mcommit f85dcd495ab8de65a3825e448d711e73a6ab67b6[m
+Merge: 89044c7 d8ccb76
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Wed Feb 23 09:40:20 2022 +0530
+
+    Merge branch 'main' of github.com:adrianhajdin/project_syncfusion_dashboard
+
+[33mcommit 89044c7f3d70288c7e2ff49c2c23603dfd9b9913[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Wed Feb 23 09:40:06 2022 +0530
+
+    refactor
+
+[33mcommit d8ccb76f596f6fcd60f8d718f92f6996881ed7c0[m
+Author: Adrian Hajdin - JavaScript Mastery <adrianhajdin00@gmail.com>
+Date:   Tue Feb 22 15:10:21 2022 +0100
+
+    refactor
+
+[33mcommit 8965edac782ae5a29c64c20504abb796febe277b[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Feb 22 15:30:39 2022 +0530
+
+    ..
+
+[33mcommit 7965536e1f2449047b8604bac0753aa1f5f8518a[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Tue Feb 22 15:20:07 2022 +0530
+
+    reactor code
+
+[33mcommit ca8da3791e3f95973882dddb3a6c148cbe4a5ce8[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Mon Feb 21 17:44:34 2022 +0530
+
+    light&dark theme and theme colors
+
+[33mcommit 542c20fc299d194b00ff7ad996d1910e9f76e548[m
+Author: Mandeep Singhmar <msingh8328@gmail.com>
+Date:   Thu Feb 17 09:47:16 2022 +0530
+
+    initial commit
