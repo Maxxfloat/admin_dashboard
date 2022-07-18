@@ -97,7 +97,7 @@ const Navbar = () => {
             onClick={() => handleClick("userProfile")}
           >
             <Image
-              className="w-8 h-8 rounded-full"
+              className="rounded-full"
               width={"32px"}
               height={"32px"}
               src={avatar}

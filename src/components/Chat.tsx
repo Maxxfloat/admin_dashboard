@@ -37,7 +37,7 @@ const Chat = () => {
           >
             <div className="relative">
               <Image
-                className="w-10 h-10 rounded-full"
+                className="rounded-full"
                 width={"40px"}
                 height={"40px"}
                 src={item.image}
