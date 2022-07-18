@@ -31,17 +31,30 @@ import { HiOutlineRefresh } from "react-icons/hi";
 import { TiTick } from "react-icons/ti";
 import { GiLouvrePyramid } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
-import avatar from "./avatar.jpg";
-import avatar2 from "./avatar2.jpg";
-import avatar3 from "./avatar3.png";
-import avatar4 from "./avatar4.jpg";
-import product1 from "./product1.jpg";
-import product2 from "./product2.jpg";
-import product3 from "./product3.jpg";
-import product4 from "./product4.jpg";
-import product5 from "./product5.jpg";
-import product6 from "./product6.jpg";
-import product7 from "./product7.jpg";
+import avatarObj from "./avatar.jpg";
+import avatar2Obj from "./avatar2.jpg";
+import avatar3Obj from "./avatar3.png";
+import avatar4Obj from "./avatar4.jpg";
+import product1Obj from "./product1.jpg";
+import product2Obj from "./product2.jpg";
+import product3Obj from "./product3.jpg";
+import product4Obj from "./product4.jpg";
+import product5Obj from "./product5.jpg";
+import product6Obj from "./product6.jpg";
+import product7Obj from "./product7.jpg";
+
+const avatar = avatarObj.src;
+const avatar2 = avatar2Obj.src;
+const avatar3 = avatar3Obj.src;
+const avatar4 = avatar4Obj.src;
+const product1 = product1Obj.src;
+const product2 = product2Obj.src;
+const product3 = product3Obj.src;
+const product4 = product4Obj.src;
+const product5 = product5Obj.src;
+const product6 = product6Obj.src;
+const product7 = product7Obj.src;
+
 import {
   AxisModel,
   RangeColorSettingDirective,
@@ -565,7 +578,7 @@ export const links = [
         icon: <FiEdit />,
       },
       {
-        name: "color-picker",
+        name: "colorpicker",
         icon: <BiColorFill />,
       },
     ],
@@ -639,25 +652,25 @@ export const chatData: {
   dotColor?: string;
 }[] = [
   {
-    image: avatar2,
+    image: avatar2Obj,
     message: "Roman Joined the Team!",
     desc: "Congratulate him",
     time: "9:08 AM",
   },
   {
-    image: avatar3,
+    image: avatar3Obj,
     message: "New message received",
     desc: "Salma sent you new message",
     time: "11:56 AM",
   },
   {
-    image: avatar4,
+    image: avatar4Obj,
     message: "New Payment received",
     desc: "Check your earnings",
     time: "4:39 AM",
   },
   {
-    image: avatar,
+    image: avatarObj,
     message: "Jolly completed tasks",
     desc: "Assign her new tasks",
     time: "1:12 AM",
