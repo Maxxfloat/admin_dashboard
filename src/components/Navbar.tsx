@@ -46,12 +46,10 @@ const Navbar = () => {
   } = useStateContext();
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const handleResize = () => setScreenSize(window.innerWidth);
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      return () => window.removeEventListener("resize", handleResize);
-    }
+    const handleResize = () => setScreenSize(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
@@ -100,6 +98,8 @@ const Navbar = () => {
           >
             <Image
               className="w-8 h-8 rounded-full"
+              width={"32px"}
+              height={"32px"}
               src={avatar}
               alt="user-profile"
             />

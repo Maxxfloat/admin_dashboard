@@ -25,6 +25,8 @@ const UserProfile = () => {
       <div className="flex items-center gap-5 pb-6 mt-6 border-color border-b-1">
         <Image
           className="w-24 h-24 rounded-full"
+          width={"96px"}
+          height={"96px"}
           src={avatar}
           alt="user-profile"
         />
@@ -52,7 +54,7 @@ const UserProfile = () => {
             <button
               type="button"
               style={{ color: item.iconColor, backgroundColor: item.iconBg }}
-              className="p-3 text-xl rounded-lg  hover:bg-light-gray"
+              className="p-3 text-xl rounded-lg hover:bg-light-gray"
             >
               {item.icon}
             </button>

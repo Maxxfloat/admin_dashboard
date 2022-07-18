@@ -62,7 +62,6 @@ const Layout: FC<{ children: React.ReactNode }> = ({ children }) => {
           </div>
           <div>
             {themeSettings && <ThemeSettings />}
-
             {children}
           </div>
           <Footer />

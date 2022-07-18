@@ -1,10 +1,8 @@
-import React from "react";
+import { FC, useEffect, useState } from "react";
 import {
   SparklineComponent,
   Inject,
   SparklineTooltip,
-  // Sparkline as SparkLineProps,
-  SparklineType,
 } from "@syncfusion/ej2-react-charts";
 import { DataManager } from "@syncfusion/ej2/data";
 
@@ -18,11 +16,15 @@ type CustomSparkLineProps = {
   type?: "Line" | "Column" | "WinLoss" | "Pie" | "Area";
 };
 
-class SparkLine extends React.PureComponent<CustomSparkLineProps> {
-  render() {
-    const { id, height, width, color, data, type, currentColor } = this.props;
+// class SparkLine extends React.PureComponent<CustomSparkLineProps> {
+//   render() {
+const SparkLine: FC<CustomSparkLineProps> = (props) => {
+  // const { id, height, width, color, data, type, currentColor } = this.props;
+  const [sparkComponent, setSparkComponent] = useState(null);
+  const { id, height, width, color, data, type, currentColor } = props;
 
-    return (
+  useEffect(() => {
+    setSparkComponent(
       <SparklineComponent
         id={id}
         height={height}
@@ -48,7 +50,16 @@ class SparkLine extends React.PureComponent<CustomSparkLineProps> {
         <Inject services={[SparklineTooltip]} />
       </SparklineComponent>
     );
-  }
-}
+  }, []);
+
+  const SparkName = sparkComponent;
+  return (
+    <>
+      {/* {typeof window !== "undefined" && (
+      )} */}
+      {sparkComponent}
+    </>
+  );
+};
 
 export default SparkLine;

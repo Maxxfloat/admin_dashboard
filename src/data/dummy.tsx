@@ -192,7 +192,7 @@ export const areaPrimaryYAxis = {
   minorTickLines: { width: 0 },
   labelStyle: { color: "gray" },
 };
-export const barPrimaryXAxis = {
+export const barPrimaryXAxis: AxisModel = {
   valueType: "Category",
   interval: 1,
   majorGridLines: { width: 0 },

@@ -22,17 +22,15 @@ const NavLink: FC<
   let CustomClassName: string;
   let CustomStyle: CSSProperties;
 
-  if (isActive) {
-    if (typeof className === "function") {
-      CustomClassName = className(isActive);
-    } else {
-      CustomClassName = className;
-    }
-    if (typeof style === "function") {
-      CustomStyle = style(isActive);
-    } else {
-      CustomStyle = style;
-    }
+  if (typeof className === "function") {
+    CustomClassName = className(isActive);
+  } else {
+    CustomClassName = className;
+  }
+  if (typeof style === "function") {
+    CustomStyle = style(isActive);
+  } else {
+    CustomStyle = style;
   }
 
   return (

@@ -28,14 +28,13 @@ const Sidebar = () => {
       {activeMenu && (
         <>
           <div className="flex items-center justify-between">
-            <Link
-              href="/"
-              onClick={handleCloseSideBar}
-              className="flex items-center gap-3 mt-4 ml-3 text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
-            >
-              <>
+            <Link href="/">
+              <a
+                onClick={handleCloseSideBar}
+                className="flex items-center gap-3 mt-4 ml-3 text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
+              >
                 <SiShopware /> <span>Shoppy</span>
-              </>
+              </a>
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button
@@ -60,7 +59,7 @@ const Sidebar = () => {
                     key={link.name}
                     onClick={handleCloseSideBar}
                     style={(isActive: boolean) => ({
-                      backgroundColor: isActive ? currentColor : "",
+                      backgroundColor: isActive ? currentColor : null,
                     })}
                     className={(isActive: boolean) =>
                       isActive ? activeLink : normalLink
