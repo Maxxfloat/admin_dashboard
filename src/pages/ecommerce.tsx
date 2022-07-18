@@ -348,7 +348,7 @@ const Ecommerce = () => {
               {medicalproBranding.leaders.map((item, index) => (
                 <Image
                   key={index}
-                  className="w-8 h-8 rounded-full"
+                  className="rounded-full"
                   width={"32px"}
                   height={"32px"}
                   src={item.image}

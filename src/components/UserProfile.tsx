@@ -24,7 +24,7 @@ const UserProfile = () => {
       </div>
       <div className="flex items-center gap-5 pb-6 mt-6 border-color border-b-1">
         <Image
-          className="w-24 h-24 rounded-full"
+          className="rounded-full"
           width={"96px"}
           height={"96px"}
           src={avatar}

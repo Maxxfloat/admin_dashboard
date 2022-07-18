@@ -60,7 +60,7 @@ import {
   RangeColorSettingDirective,
   RangeColorSettingModel,
 } from "@syncfusion/ej2-react-charts";
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 import {
   ContextMenuItem,
   ContextMenuItemModel,
@@ -69,8 +69,9 @@ import {
 
 export const gridOrderImage = (props) => (
   <div>
-    <img
-      className="h-20 rounded-xl md:ml-3"
+    <Image
+      className="rounded-xl md:ml-3"
+      height={"80px"}
       src={props.ProductImage}
       alt="order-item"
     />
@@ -103,8 +104,10 @@ export const kanbanGrid = [
 ];
 const gridEmployeeProfile = (props) => (
   <div className="flex items-center gap-2">
-    <img
-      className="w-10 h-10 rounded-full"
+    <Image
+      className="rounded-full"
+      width={"40px"}
+      height={"40px"}
       src={props.EmployeeImage}
       alt="employee"
     />
@@ -166,8 +169,10 @@ export const EditorData = () => (
 );
 const customerGridImage = (props) => (
   <div className="flex gap-4 image">
-    <img
-      className="w-10 h-10 rounded-full"
+    <Image
+      className="rounded-full"
+      width={"40px"}
+      height={"40px"}
       src={props.CustomerImage}
       alt="employee"
     />
