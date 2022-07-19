@@ -4,7 +4,7 @@
 
 **Admin dashboard with multi simple and complicated app**
 Made by **Nextjs**, **TailwindCSS**, **Typescript**, **syncfusion**
-All Data Hard-Coded
+All Data are Hard-Code
 
 ## What I Did
 
