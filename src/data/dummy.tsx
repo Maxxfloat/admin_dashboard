@@ -72,6 +72,7 @@ export const gridOrderImage = (props) => (
     <Image
       className="rounded-xl md:ml-3"
       height={"80px"}
+      width={"80px"}
       src={props.ProductImage}
       alt="order-item"
     />
@@ -82,8 +83,7 @@ export const gridOrderStatus = (props) => (
   <button
     type="button"
     style={{ background: props.StatusBg }}
-    className="px-2 py-1 text-white capitalize rounded-2xl text-md"
-  >
+    className="px-2 py-1 text-white capitalize rounded-2xl text-md">
     {props.Status}
   </button>
 );
@@ -613,7 +613,7 @@ export const links = [
         icon: <RiStockLine />,
       },
       {
-        name: "color-mapping",
+        name: "colormapping",
         icon: <BsBarChart />,
       },
       {

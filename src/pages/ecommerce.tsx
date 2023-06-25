@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { BsCurrencyDollar } from "react-icons/bs";
-import { GoPrimitiveDot } from "react-icons/go";
+import { BsCurrencyDollar, BsThreeDotsVertical } from "react-icons/bs";
 import { IoIosMore } from "react-icons/io";
 import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
 
@@ -50,8 +49,7 @@ const Ecommerce = () => {
             <button
               type="button"
               style={{ backgroundColor: currentColor }}
-              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
-            >
+              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4">
               <BsCurrencyDollar />
             </button>
           </div>
@@ -68,13 +66,11 @@ const Ecommerce = () => {
           {earningData.map((item) => (
             <div
               key={item.title}
-              className="p-4 bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 pt-9 rounded-2xl "
-            >
+              className="p-4 bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 pt-9 rounded-2xl ">
               <button
                 type="button"
                 style={{ color: item.iconColor, backgroundColor: item.iconBg }}
-                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
-              >
+                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl">
                 {item.icon}
               </button>
               <p className="mt-3">
@@ -96,13 +92,13 @@ const Ecommerce = () => {
             <div className="flex items-center gap-4">
               <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
                 <span>
-                  <GoPrimitiveDot />
+                  <BsThreeDotsVertical />
                 </span>
                 <span>Expense</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
                 <span>
-                  <GoPrimitiveDot />
+                  <BsThreeDotsVertical />
                 </span>
                 <span>Budget</span>
               </p>
@@ -155,8 +151,7 @@ const Ecommerce = () => {
         <div>
           <div
             className="p-4 m-3 rounded-2xl md:w-400"
-            style={{ backgroundColor: currentColor }}
-          >
+            style={{ backgroundColor: currentColor }}>
             <div className="flex items-center justify-between ">
               <p className="text-2xl font-semibold text-white">Earnings</p>
 
@@ -217,8 +212,7 @@ const Ecommerce = () => {
                       color: item.iconColor,
                       backgroundColor: item.iconBg,
                     }}
-                    className="p-4 text-2xl rounded-lg hover:drop-shadow-xl"
-                  >
+                    className="p-4 text-2xl rounded-lg hover:drop-shadow-xl">
                     {item.icon}
                   </button>
                   <div>
@@ -260,8 +254,7 @@ const Ecommerce = () => {
             <p className="text-xl font-semibold">Weekly Stats</p>
             <button
               type="button"
-              className="text-xl font-semibold text-gray-500"
-            >
+              className="text-xl font-semibold text-gray-500">
               <IoIosMore />
             </button>
           </div>
@@ -270,14 +263,12 @@ const Ecommerce = () => {
             {weeklyStats.map((item) => (
               <div
                 key={item.title}
-                className="flex justify-between w-full mt-4"
-              >
+                className="flex justify-between w-full mt-4">
                 <div className="flex gap-4">
                   <button
                     type="button"
                     style={{ background: item.iconBg }}
-                    className="p-3 text-2xl text-white rounded-full hover:drop-shadow-xl"
-                  >
+                    className="p-3 text-2xl text-white rounded-full hover:drop-shadow-xl">
                     {item.icon}
                   </button>
                   <div>
@@ -307,8 +298,7 @@ const Ecommerce = () => {
             <p className="text-xl font-semibold">MedicalPro Branding</p>
             <button
               type="button"
-              className="text-xl font-semibold text-gray-400"
-            >
+              className="text-xl font-semibold text-gray-400">
               <IoIosMore />
             </button>
           </div>
@@ -320,8 +310,7 @@ const Ecommerce = () => {
             {medicalproBranding.data.map((item) => (
               <div
                 key={item.title}
-                className="pb-2 pr-4 border-r-1 border-color"
-              >
+                className="pb-2 pr-4 border-r-1 border-color">
                 <p className="text-xs text-gray-400">{item.title}</p>
                 <p className="text-sm">{item.desc}</p>
               </div>
@@ -335,8 +324,7 @@ const Ecommerce = () => {
                 <p
                   key={item.name}
                   style={{ background: item.color }}
-                  className="cursor-pointer hover:drop-shadow-xl text-white py-0.5 px-3 rounded-lg text-xs"
-                >
+                  className="cursor-pointer hover:drop-shadow-xl text-white py-0.5 px-3 rounded-lg text-xs">
                   {item.name}
                 </p>
               ))}
@@ -375,8 +363,7 @@ const Ecommerce = () => {
             <p className="text-xl font-semibold">Daily Activities</p>
             <button
               type="button"
-              className="text-xl font-semibold text-gray-500"
-            >
+              className="text-xl font-semibold text-gray-500">
               <IoIosMore />
             </button>
           </div>

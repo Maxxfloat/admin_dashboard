@@ -29,14 +29,13 @@ const Layout: FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className={currentMode === "Dark" ? "dark" : ""}>
       <div className="relative flex dark:bg-main-dark-bg">
-        <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
+        <div className="fixed right-4 bottom-4 z-10" style={{ zIndex: "1000" }}>
           <TooltipComponent content="Settings" position={"TopCenter"}>
             <button
               type="button"
               onClick={() => setThemeSettings(true)}
               style={{ background: currentColor, borderRadius: "50%" }}
-              className="p-3 text-3xl text-white hover:drop-shadow-xl hover:bg-light-gray"
-            >
+              className="p-3 text-3xl text-white hover:drop-shadow-xl hover:bg-light-gray">
               <FiSettings />
             </button>
           </TooltipComponent>
@@ -53,10 +52,9 @@ const Layout: FC<{ children: React.ReactNode }> = ({ children }) => {
         <div
           className={
             activeMenu
-              ? "dark:bg-main-dark-bg  bg-main-bg min-h-screen md:ml-72 w-full  "
-              : "bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen flex-2 "
-          }
-        >
+              ? "dark:bg-main-dark-bg bg-main-bg min-h-screen md:ml-72 w-full  "
+              : "bg-main-bg dark:bg-main-dark-bg w-full min-h-screen flex-2 "
+          }>
           <div className="fixed w-full md:static bg-main-bg dark:bg-main-dark-bg navbar ">
             <Navbar />
           </div>

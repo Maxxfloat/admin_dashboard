@@ -11,16 +11,19 @@ const ThemeSettings = () => {
     useStateContext();
 
   return (
-    <div className="fixed top-0 right-0 w-screen bg-half-transparent nav-item">
-      <div className="float-right h-screen dark:text-gray-200  bg-white dark:bg-[#484B52] w-400">
+    <div className="fixed top-0 right-0 w-screen nav-item">
+      <div
+        onClick={() => setThemeSettings(false)}
+        className="absolute inset-0 bg-half-transparent -z-10"
+      />
+      <div className="float-right h-screen dark:text-gray-200 bg-white dark:bg-[#484B52] w-400">
         <div className="flex items-center justify-between p-4 ml-4">
           <p className="text-lg font-semibold">Settings</p>
           <button
             type="button"
             onClick={() => setThemeSettings(false)}
             style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }}
-            className="p-3 text-2xl hover:drop-shadow-xl hover:bg-light-gray"
-          >
+            className="p-3 text-2xl hover:drop-shadow-xl hover:bg-light-gray">
             <MdOutlineCancel />
           </button>
         </div>
@@ -65,18 +68,15 @@ const ThemeSettings = () => {
               <TooltipComponent
                 key={index}
                 content={item.name}
-                position="TopCenter"
-              >
+                position="TopCenter">
                 <div
                   className="relative flex items-center gap-5 mt-2 cursor-pointer"
-                  key={item.name}
-                >
+                  key={item.name}>
                   <button
                     type="button"
                     className="w-10 h-10 rounded-full cursor-pointer"
                     style={{ backgroundColor: item.color }}
-                    onClick={() => setColor(item.color)}
-                  >
+                    onClick={() => setColor(item.color)}>
                     <BsCheck
                       className={`ml-2 text-2xl text-white ${
                         item.color === currentColor ? "block" : "hidden"
